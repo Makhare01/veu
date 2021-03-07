@@ -3,3 +3,5 @@
   <img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true" alt="Build Status" />
   <img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License" />
 </p>
+
+<h2 align="center">Supporting Veu.css</h2>
