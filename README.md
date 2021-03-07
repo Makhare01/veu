@@ -1,1 +1,1 @@
-<p align="center"><img width="100" src="https://avatars.githubusercontent.com/u/80223711?s=400&u=2d604560d748252c1acb4b3cb9cca85a1d141913&v=4" alt="Veu logo" /></p>
+<p align="center"><img width="100" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/6a9df029022983.55de1972b9fb6.jpg" alt="Veu logo" /></p>
