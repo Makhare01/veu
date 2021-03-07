@@ -6,4 +6,4 @@
 
 <h2 align="center">Supporting Veu.css</h2>
 
-Veu.css is an MIT licensed open source project.
+Veu.css is an MIT licensed open source project, a major contributor to code development in which we took a very long time to build the components precisely.
