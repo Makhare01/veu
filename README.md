@@ -5,3 +5,5 @@
 </p>
 
 <h2 align="center">Supporting Veu.css</h2>
+
+Veu.css is an MIT licensed open source project.
