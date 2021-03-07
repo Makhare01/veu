@@ -7,3 +7,7 @@
 <h2 align="center">Supporting Veu.css</h2>
 
 Veu.css is an MIT licensed open source project that contributes greatly to code development. A project in which we took a very long time to build the components precisely.
+
+# Introduction
+
+Vue.css is a progressive library that helps simplify the website interface. Promotes great apps. Simplicity which is very fascinating. If you do not know which library is right for you. Try [here].
