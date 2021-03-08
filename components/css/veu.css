@@ -531,4 +531,99 @@ legend + * {
     flex: 0 0 auto;
     width: auto;
   }
+  .row-column-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .row-column-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .row-column-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .row-column-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .row-column-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+}
+/* Not all. (Continue next time by Nika Shamiladze) */
+/* ---- */
+
+.table {
+  --v-table-bg: transparent;
+  --v-table-striped-color: var(--v-def);
+  --v-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --v-table-active-color: var(--v-def);
+  --v-table-active-bg: rgba(0, 0, 0, 0.01);
+  --v-table-hover-color: var(--v-def);
+  --v-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: var(--v-def);
+  vertical-align: top;
+  border-color: #dee2e6;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--v-table-bg);
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--v-table-accent-bg);
+}
+
+.table > tbody {
+  vertical-align: inherit;
+}
+
+.table > thead {
+  vertical-align: bottom;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: currentColor;
+}
+
+.table-active {
+  --v-table-accent-bg: var(--v-table-active-bg);
+  color: var(--v-table-active-color);
+}
+
+.table-hover > tbody > tr:hover {
+  --v-table-accent-bg: var(--v-table-hover-bg);
+  color: var(--v-table-hover-color);
+}
+
+.table-blue {
+  --v-table-bg: #cfe2ff;
+  --v-table-striped-bbg: #c5d7f2;
+  --v-table-striped-color: #000;
+  --v-table-active-bg: #bacbe6;
+  --v-table-active-color: #000;
+  --v-table-hover-bg: #bfd1ec;
+  --v-table-hover-color: #000;
+  color: #000;
+  border-color: #bacbe6;
+}
+
+.table-gray {
+  --v-table-bg: #e2e3e5;
+  --v-table-striped-bg: #d7d8da;
+  --v-table-striped-color: #000;
+  --v-table-active-bg: #cbccce;
+  --v-table-active-color: #000;
+  --v-table-hover-bg: #d1d2d4;
+  --v-table-hover-color: #000;
+  color: #000;
+  border-color: #cbccce;
+}
+
+.table-green {
+  --v-table-bg: #d1e7dd;
+  --v-table-striped-bg: #c7dbd2;
 }
