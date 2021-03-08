@@ -802,3 +802,264 @@ fieldset:disabled .button {
   background-color: #198754;
   border-color: #198754;
 }
+
+.btn-inf {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+  box-shadow: none !important;
+}
+
+.btn-inf:hover {
+  color: #000;
+  background-color: #31d2f2;
+  border-color: #25cff2;
+}
+
+.btn-inf:disabled,
+.btn-inf.disabled {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-warn {
+  color: #000;
+  background-color: #ffc107;
+  box-shadow: none !important;
+  border-color: #ffc107;
+}
+
+.btn-warn:hover {
+  color: #000;
+  background-color: #ffca2c;
+  border-color: #ffc720;
+}
+
+.btn-warn.disabled,
+.btn-warn:disabled {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-dang {
+  color: #fff;
+  background-color: #dc3545;
+  box-shadow: none !important;
+  border-color: #dc3545;
+}
+
+.btn-dang:hover {
+  color: #fff;
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
+
+.btn-dang:disabled,
+.btn-dang.disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-light {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  box-shadow: none !important;
+}
+
+.btn-light:hover {
+  color: #000;
+  background-color: #f9fafb;
+  border-color: #f9fafb;
+}
+
+.btn-light:disabled,
+.btn-light.disabled {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+  box-shadow: none !important;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #1c1f23;
+  border-color: #1a1e21;
+}
+
+.btn-dark:disabled,
+.btn-dark.disabled {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-out-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-out-primary:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  box-shadow: none !important;
+  border-color: #0d6efd;
+}
+
+.btn-out-primary:disabled,
+.btn-out-primary.disabled {
+  color: #0d6efd;
+  background-color: transparent;
+}
+
+.btn-out-sec {
+  color: #6c757d;
+  box-shadow: none !important;
+  border-color: #6c757d;
+}
+
+.btn-out-sec:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-out-sec:disabled,
+.btn-out-sec.disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.btn-out-success {
+  color: #198754;
+  border-color: #198754;
+  box-shadow: none !important;
+}
+
+.btn-out-success:hover {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-out-success:disabled,
+.btn-out-success.disabled {
+  color: #198754;
+  background-color: transparent;
+}
+
+.btn-out-info {
+  color: #0dcaf0;
+  border-color: #0dcaf0;
+  box-shadow: none !important;
+}
+
+.btn-out-info:hover {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-out-info:disabled,
+.btn-out-info.disabled {
+  color: #0dcaf0;
+  background-color: transparent;
+}
+
+.btn-out-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-out-warning:hover {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  box-shadow: none !important;
+}
+
+.btn-out-warning:hover {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-out-warning:disabled,
+.btn-out-warning.disabled {
+  color: #ffc107;
+  background-color: transparent;
+}
+
+.btn-out-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+  box-shadow: none !important;
+}
+
+.btn-out-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-out-danger:disabled,
+.btn-out-danger.disabled {
+  color: #dc3545;
+  background-color: transparent;
+}
+
+.btn-out-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-out-light:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-out-light:disabled,
+.btn-out-light.disabled {
+  color: #f8f9fa;
+  background-color: transparent;
+}
+
+.btn-out-dark {
+  color: #212529;
+  border-color: #212529;
+}
+.btn-out-dark:hover {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-out-dark:disabled,
+.btn-out-dark.disabled {
+  color: #212529;
+  background-color: transparent;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #0a58ca;
+}
+
+.btn-link:disabled,
+.btn-link.disabled {
+  color: #6c757d;
+}
