@@ -15,3 +15,5 @@ Vue.css is a progressive library that helps simplify the website interface. Prom
 # Documentation
 
 Update soon.
+
+<p>Thank's for reading. &copy; 2021</p>
