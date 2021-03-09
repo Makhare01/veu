@@ -1238,51 +1238,67 @@ fieldset:disabled .button {
   border-radius: 0.25rem;
 }
 
-.text-primary {
+.txt-center {
+  text-align: center;
+}
+
+.txt-primary {
   color: #0d6efd;
 }
 
-.text-secondary {
+.txt-secondary {
   color: #6c757d;
 }
 
-.text-success {
+.txt-success {
   color: #198754;
 }
 
-.text-danger {
+.txt-danger {
   color: #dc3545;
 }
 
-.text-warning {
+.txt-warning {
   color: #ffc107;
 }
 
-.text-info {
+.txt-info {
   color: #0dcaf0;
 }
 
-.text-light {
+.txt-light {
   color: #f8f9fa;
 }
 
-.text-dark {
+.txt-dark {
   color: var(--v-def);
 }
 
-.text-body {
+.txt-body {
   color: var(--v-def);
 }
 
-.text-muted {
+.txt-bold {
+  font-weight: bold;
+}
+
+.txt-lighter {
+  font-weight: lighter;
+}
+
+.txt-normal {
+  font-weight: normal;
+}
+
+.txt-muted {
   color: #6c757d;
 }
 
-.text-black-50 {
+.txt-black-50 {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.text-white-50 {
+.txt-white-50 {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1324,4 +1340,32 @@ fieldset:disabled .button {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
